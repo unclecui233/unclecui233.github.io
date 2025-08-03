@@ -1,0 +1,20 @@
+article:
+  reading_time_title: "阅读时长"
+  date_format: "2006年1月2日"
+  
+nav:
+  home: "首页"
+  posts: "文章"
+  about: "关于"
+  archive: "归档"
+  tags: "标签"
+  categories: "分类"
+
+footer:
+  copyright: "版权所有"
+  
+search:
+  placeholder: "搜索文章..."
+  
+sharing:
+  share_title: "分享这篇文章"

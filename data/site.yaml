@@ -1,0 +1,16 @@
+# 网站信息
+site:
+  name: "LowBee 的博客"
+  description: "分享技术文章和个人见解"
+  keywords: ["技术博客", "编程", "开发", "学习笔记"]
+  
+# 作者信息  
+author:
+  name: "LowBee"
+  bio: "热爱技术的开发者"
+  
+# 社交媒体链接（可选）
+social:
+  github: ""
+  email: ""
+  twitter: ""

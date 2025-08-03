@@ -1,0 +1,23 @@
+# 语言配置
+[languages]
+  [languages.zh-cn]
+    languageName = "简体中文"
+    languageCode = "zh-cn"
+    weight = 1
+    title = "LowBee 的博客"
+    
+    [languages.zh-cn.params]
+      description = "分享技术文章和个人见解的博客"
+      
+    # 中文菜单配置
+    [[languages.zh-cn.menu.main]]
+      identifier = "posts"
+      name = "文章"
+      url = "/posts/"
+      weight = 10
+
+    [[languages.zh-cn.menu.main]]
+      identifier = "about"
+      name = "关于"
+      url = "/about/"
+      weight = 20
