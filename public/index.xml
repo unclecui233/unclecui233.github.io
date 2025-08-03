@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>欢迎来到 LowBee 的博客 on LowBee 的博客</title>
-    <link>https://unclecui233.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in 欢迎来到 LowBee 的博客 on LowBee 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Sun, 03 Aug 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://unclecui233.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Aug 2025 10:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>我的第一篇博客文章</title>
-      <link>https://unclecui233.github.io/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sun, 03 Aug 2025 10:00:00 +0800</pubDate>
       
-      <guid>https://unclecui233.github.io/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>关于我</title>
-      <link>https://unclecui233.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://unclecui233.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description></description>
       
     </item>
