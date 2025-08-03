@@ -5,6 +5,8 @@
 theme = "blowfish"
 baseURL = "https://unclecui233.github.io/"
 defaultContentLanguage = "zh-cn"
+relativeURLs = false
+canonifyURLs = true
 
 enableRobotsTXT = true
 summaryLength = 0
@@ -25,11 +27,23 @@ hasCJKLanguage = true
 
 [imaging]
   anchor = 'Center'
+  quality = 75
+  resampleFilter = 'CatmullRom'
 
 [taxonomies]
   tag = "tags"
   category = "categories"
   author = "authors"
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "index"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
 
 [markup]
   [markup.goldmark]

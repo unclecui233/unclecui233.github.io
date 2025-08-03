@@ -21,6 +21,7 @@ mainSections = ["posts"]
 disableImageOptimization = false
 disableImageOptimizationMD = false
 disableTextInHeader = false
+# backgroundImageWidth = 1200
 
 highlightCurrentMenuArea = true
 
