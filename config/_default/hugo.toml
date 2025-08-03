@@ -8,6 +8,9 @@ defaultContentLanguage = "zh-cn"
 relativeURLs = false
 canonifyURLs = true
 
+# 强制刷新资源
+enableGitInfo = true
+
 enableRobotsTXT = true
 summaryLength = 0
 

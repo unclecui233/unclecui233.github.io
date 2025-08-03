@@ -1,0 +1,12 @@
+<!-- 强制清除缓存 -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+<!-- 确保正确的资源路径 -->
+<base href="{{ .Site.BaseURL }}">
+
+{{ if .Site.Params.fingerprint }}
+{{ $style := resources.Get "css/main.css" | resources.PostCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ end }}
