@@ -1,0 +1,11 @@
+[[main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+[[main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 20
